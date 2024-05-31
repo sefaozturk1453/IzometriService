@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IzometriService.Core\IzometriService.Core.csproj" />
+    <ProjectReference Include="..\IzometriService.DataAccess\IzometriService.DataAccess.csproj" />
+    <ProjectReference Include="..\IzometriService.Entities\IzometriService.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ValidationRules\FluentValidation\API\DepartmentValidation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
